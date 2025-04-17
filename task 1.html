@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+body{
+    background: skyblue;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.content{
+width: 50vw;   height: 50vh;
+display: flex;
+flex-wrap: wrap;
+display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-template-rows: repeat(2,1fr);
+gap: 5px;
+background-position: center;
+}
+.c{
+    border: solid blue 3px;
+    background: green;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 50%;
+max-width: 200px;
+height: auto;
+aspect-ratio: 1;
+    font-size: 48px;
+}
+.c:hover{
+      background: red;
+}
+    </style>
+</head>
+<body>
+
+    <div class="content">
+
+    <div class="c1 c"> 1</div>
+    <div class="c2 c"> 2</div>
+    <div class="c3 c"> 3</div>
+    <div class="c4 c"> 4</div>
+    <div class="c5 c"> 5</div>
+    <div class="c6 c"> 6</div>
+
+    </div>
+
+</body>
+</html> 
