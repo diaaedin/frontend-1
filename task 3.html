@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+   body{
+    height: 100vh;
+    width: 100vw;
+    background: skyblue;
+    display: flex;
+   }
+  .list{
+  width: 200px; 
+  height: 100vh;
+  background: none;
+  display: flex;
+  justify-content: flex-start;   
+  align-content:flex-start;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 15px;
+  border: none red ;
+  flex-grow: 0;
+  position: relative;
+
+  }
+  .s{
+   width: 100%;
+   height: 50px;
+   background: aqua;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 8px;
+   margin: 5px 0px;
+   text-decoration:none;
+   transition: 0.75s;
+  }
+  .s:hover{
+   background: red;
+  }
+  .s5{
+  position: absolute; 
+  bottom: 0;
+
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  .grid{
+  height: 100vh;
+  background: none;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(2,1fr);
+  flex-grow: 1;
+  margin: 20px;
+ 
+  }
+  .c{
+   display: flex;
+   justify-content: flex-end;
+   align-items: end;
+  }
+h3,p{
+  margin: 0px 0px 0px 50px;
+}
+h3{
+  color: green;
+}
+h3:hover{
+color: greenyellow;
+}
+p{
+  color: brown;
+}
+p:hover{
+color:azure;
+
+}
+
+
+  </style>
+</head>
+<body>
+
+<div class="list">
+  <div class="s1 s">
+    <a href="#"> home </a>
+  </div> 
+  <div class="s2 s">
+    <a href="#"> about </a>
+  </div> 
+  <div class="s3 s">
+    <a href="#"> us </a>
+  </div> 
+  <div class="s4 s">
+    <a href="#"> content </a>
+  </div> 
+  <div class="s5 s">
+    <a href="#"> Exit </a>
+  </div> 
+</div>
+<div class="grid">
+  <div class="c1">
+    <img src="https://picsum.photos/200?random=1" alt="">
+    <h3>title 1</h3>
+    <p> title number one</p>
+  </div>
+  <div class="c2">
+    <img src="https://picsum.photos/200?random=2" alt="">
+    <h3>title 2</h3>
+    <p> title number two</p>
+  </div>
+  <div class="c3">
+    <img src="https://picsum.photos/200?random=3" alt="">
+    <h3>title 3</h3>
+    <p> title number three</p>
+  </div>
+  <div class="c4">
+    <img src="https://picsum.photos/200?random=4" alt="">
+    <h3>title 4</h3>
+    <p> title number fuor</p>
+  </div>
+  <div class="c5">
+    <img src="https://picsum.photos/200?random=5" alt="">
+    <h3>title 5</h3>
+    <p> title number five</p>
+  </div>
+  <div class="c6">
+    <img src="https://picsum.photos/200?random=6" alt="">
+    <h3>title 6</h3>
+    <p> title number six</p>
+  </div>
+</div>  
+</body>
+</html>
+
